@@ -1,0 +1,56 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+header {
+   background-color: #4682B4;
+   height: 4em;
+}
+
+header h1 {
+   text-align: center;
+   padding-top: 0.5em;
+   font-size: 2em;
+   color: white;
+}
+
+.campo-digitacao {
+   margin: 20px auto;
+   display: block;
+   height: 30px;
+   length: 300px;
+   border-radius: 5px;
+   width: 15%;
+   padding: 0 10px;
+}
+
+#botao {
+   margin: 10px auto;
+   display: block;
+   padding: 10px 40px;
+   transition-duration: 0.4s;
+   border: 2px solid #527fc7;
+   border-radius: 5px;
+}
+
+#botao:hover {
+   background-color: #527fc7;
+   color: white;
+   border: 2px solid #527fc7;
+}
+
+.table {
+   margin: 0 auto;
+   margin-top: 20px;
+   display: none;
+}
+
+.table-visivel {
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}

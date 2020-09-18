@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8">
+      <title>Fornecedores</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+   </head>
+
+   <body>
+      <header>
+         <h1>Fornecedores</h1>
+      </header>
+      <main>
+         <form id="input">
+            <label for="codigoFornecedor"></label>
+            <input class="campo-digitacao" id="codigo-fornecedor" type="text" name="codigoFornecedor" placeholder="Digite o código do fornecedor">
+
+				<label for="nomeEmpresa"></label>
+            <input class="campo-digitacao" id="nome-empresa" type="text" name="nomeEmpresa" placeholder="Digite o nome da empresa">
+
+				<label for="nomeContato"></label>
+            <input class="campo-digitacao" id="nome-contato" type="text" name="nomeContato" placeholder="Digite o nome do contato">
+
+				<label for="endereco"></label>
+            <input class="campo-digitacao" id="endereco" type="text" name="endereco" placeholder="Digite o endereço">
+
+				<label for="cidade"></label>
+            <input class="campo-digitacao" id="cidade" type="text" name="cidade" placeholder="Digite a cidade">
+
+				<label for="regiao"></label>
+            <input class="campo-digitacao" id="regiao" type="text" name="regiao" placeholder="Digite a região">
+
+				<label for="cep"></label>
+            <input class="campo-digitacao" id="cep" type="text" name="cep" placeholder="XXXXX-XXX">
+
+				<label for="telefone"></label>
+            <input class="campo-digitacao" id="telefone" type="text" name="telefone" placeholder="(XX) XXXXX-XXXX">
+
+            <button id="botao" type="button" name="botao">Enviar</button>
+
+         </form>
+
+			<div class="tabela">
+				<table class="table">
+					<tr>
+						<th>Codigo fornecedor </th>
+						<th>Nome empresa</th>
+						<th>Nome contato</th>
+						<th>Endereco</th>
+						<th>Cidade</th>
+						<th>Regiao</th>
+						<th>CEP</th>
+						<th>Telefone</th>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+
+				</table>
+			</div>
+      </main>
+		<script src="js/principal.js"></script>
+   </body>
+</html>

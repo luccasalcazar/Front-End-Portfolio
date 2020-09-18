@@ -1,0 +1,59 @@
+header {
+   background-color: #6e706f;
+   height: 4em;
+}
+
+header h1 {
+   text-align: center;
+   padding-top: 0.5em;
+   font-size: 2em;
+   color: white;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+table, th, td {
+   border: 1px solid black;
+   padding:5px;
+   width: 40%;
+}
+
+table {
+   margin: 40px auto;
+}
+
+p {
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+
+.form {
+   text-align: center;
+}
+
+.campo-texto {
+   text-align: center;
+   display: inline-block;
+   padding: 0 40px;
+   width: 10%;
+   height: 25px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-left: auto;
+}
+
+#botao-enviar {
+   margin-top: 20px;
+   height: 30px;
+   width: 100px;
+   border: 2px solid #527fc7;
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+#botao-enviar:hover {
+   background-color: #527fc7;
+   color: white;
+}

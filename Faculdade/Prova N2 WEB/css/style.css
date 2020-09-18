@@ -1,0 +1,20 @@
+.fonte-especial {
+   font-family: 'Cinzel', serif;
+}
+
+.background {
+   height: 150px;
+}
+
+.texto-agendamento {
+   font-size: 24px;
+}
+
+.padding {
+   padding-left: 20px;
+   margin-left: 0px;
+}
+
+.margin {
+   margin-bottom:10px;
+}
